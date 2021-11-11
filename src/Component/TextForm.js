@@ -18,7 +18,7 @@ export default function TextForm(props) {
     const handleclearCLick = ()=>{
         let newText= ('');
         setText(newText);
-        props.showAlert("Text Cleared!", "success");
+        props.showAlert("Text Cleared!", "Success");
     } 
     const handleTitleCase = ()=>{
         let newText = (text.charAt(0).toUpperCase() + text.substr(1).toLowerCase());
